@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./index.css" ></link>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+       <script src="./index.js" defer> </script>
+       <title>Palidrome</title>
+    </head>
+  <body>
+    <div class="palidrom__wrapper">
+        <h1 class="palidrome__h1">freeCodeCamp Logo</h1>
+        <p class="palindrome__p">Is it a Palindrome?</p>
+        <div class="input__wrapper">
+            <label class="palindrome__label" for="text-input">Enter in text to check for a palindrome:</label>
+            <div>
+                <input id="text-input"/>
+                <button type="submit" id="check-btn" onclick="checkPalidrome()">Check</button>
+            </div>
+            <p id="result"></p>
+        </div>
+    </div>
+    <div class="palidrom__defination__wrapper">
+        <p class="palidrom__defination">
+            <i class="bi bi-lightbulb"></i> A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+        </p>
+    </div>
+  </body>
+</html>
